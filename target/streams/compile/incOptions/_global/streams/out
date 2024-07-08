@@ -1,15 +1,13 @@
-[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = C:\Users\vineet.chauhan\IdeaProjects\quickstart\target\scala-2.13\classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = C:\Users\vineet.chauhan\Scala\Http4s-quick-start\target\scala-2.13\classes.bak[0m
 [0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
-[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
-[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = C:\Users\vineet.chauhan\IdeaProjects\quickstart\target\scala-2.13\classes.bak[0m
-[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
-[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
-[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Jokes$$anon$3$$anonfun$get$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QuickstartRoutes$$anon$3.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	QuickstartRoutes$$anonfun$helloWorldRoutes$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	HelloWorld$$anon$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Jokes$Joke$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QuickstartRoutes$$anonfun$uuidRoute$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Jokes$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UUIDs$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	QuickstartRoutes$$anon$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	HelloWorld$Greeting.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	QuickstartRoutes$$anon$2.class[0m
@@ -26,14 +24,102 @@
 [0m[[0m[0mdebug[0m] [0m[0m	Jokes$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	HelloWorld.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	HelloWorld$Name.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UUIDs$$anon$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Jokes.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Jokes$$anon$3$$anon$4.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	QuickstartRoutes.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Jokes$JokeError.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UUIDs$Create$$anonfun$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Jokes$Joke$anon$lazy$macro$7$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UUIDs$Create$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UUIDs.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Jokes$JokeError$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	HelloWorld$Name$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	HelloWorld$Greeting$$anonfun$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	QuickstartRoutes$$anonfun$jokeRoutes$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	QuickstartServer$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: C:\Users\vineet.chauhan\IdeaProjects\quickstart\target\scala-2.13\classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UUIDs$Create.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Jokes$$anon$3$$anonfun$get$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QuickstartRoutes$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QuickstartRoutes$$anonfun$helloWorldRoutes$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HelloWorld$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Jokes$Joke$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QuickstartRoutes$$anonfun$uuidRoute$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Jokes$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UUIDs$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QuickstartRoutes$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HelloWorld$Greeting.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QuickstartRoutes$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HelloWorld$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QuickstartRoutes$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Jokes$Joke$anon$lazy$macro$15$1$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Jokes$Joke$anon$lazy$macro$7$1$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QuickstartServer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Jokes$Joke$anon$lazy$macro$15$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HelloWorld$Greeting$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Jokes$Joke.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Jokes$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HelloWorld.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HelloWorld$Name.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UUIDs$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Jokes.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Jokes$$anon$3$$anon$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QuickstartRoutes.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Jokes$JokeError.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UUIDs$Create$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Jokes$Joke$anon$lazy$macro$7$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UUIDs$Create$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UUIDs.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Jokes$JokeError$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HelloWorld$Name$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HelloWorld$Greeting$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QuickstartRoutes$$anonfun$jokeRoutes$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QuickstartServer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UUIDs$Create.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = C:\Users\vineet.chauhan\Scala\Http4s-quick-start\target\scala-2.13\classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Jokes$$anon$3$$anonfun$get$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QuickstartRoutes$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QuickstartRoutes$$anonfun$helloWorldRoutes$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HelloWorld$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Jokes$Joke$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QuickstartRoutes$$anonfun$uuidRoute$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Jokes$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UUIDs$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QuickstartRoutes$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HelloWorld$Greeting.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QuickstartRoutes$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HelloWorld$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QuickstartRoutes$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Jokes$Joke$anon$lazy$macro$15$1$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Jokes$Joke$anon$lazy$macro$7$1$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QuickstartServer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Jokes$Joke$anon$lazy$macro$15$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HelloWorld$Greeting$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Jokes$Joke.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Jokes$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HelloWorld.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HelloWorld$Name.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UUIDs$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Jokes.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Jokes$$anon$3$$anon$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QuickstartRoutes.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Jokes$JokeError.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UUIDs$Create$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Jokes$Joke$anon$lazy$macro$7$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UUIDs$Create$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UUIDs.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Jokes$JokeError$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HelloWorld$Name$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HelloWorld$Greeting$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QuickstartRoutes$$anonfun$jokeRoutes$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QuickstartServer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UUIDs$Create.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: C:\Users\vineet.chauhan\Scala\Http4s-quick-start\target\scala-2.13\classes.bak[0m

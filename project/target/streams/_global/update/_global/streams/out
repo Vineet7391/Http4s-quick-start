@@ -1,3 +1,3 @@
-[debug] not up to date. inChanged = true, force = false
-[debug] Updating ProjectRef(uri("file:/C:/Users/vineet.chauhan/IdeaProjects/quickstart/project/"), "quickstart-build")...
-[debug] Done updating ProjectRef(uri("file:/C:/Users/vineet.chauhan/IdeaProjects/quickstart/project/"), "quickstart-build")
+[0m[[0m[0mdebug[0m] [0m[0mnot up to date. inChanged = true, force = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mUpdating ProjectRef(uri("file:/C:/Users/vineet.chauhan/Scala/Http4s-quick-start/project/"), "http4s-quick-start-build")...[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone updating ProjectRef(uri("file:/C:/Users/vineet.chauhan/Scala/Http4s-quick-start/project/"), "http4s-quick-start-build")[0m

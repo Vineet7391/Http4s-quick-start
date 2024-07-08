@@ -7,7 +7,6 @@ import org.http4s.EntityEncoder
 import org.http4s.circe.jsonEncoderOf
 
 import java.util.UUID
-import scala.annotation.tailrec
 
 trait UUIDs[F[_]] {
   def get: F[UUIDs.Create]
@@ -32,9 +31,6 @@ object UUIDs {
     override def getAll(no: Int): F[List[Create]] = getUUIDs(no).pure[F]
   }
 
-  @tailrec
-  def getUUIDs(no: Int, acc: List[Create] = List()): List[Create] = {
-    if (no == 0) acc
-    else getUUIDs(no - 1, acc.appended(Create(UUID.randomUUID())))
-  }
+  def getUUIDs(no: Int): List[Create] =
+    List.fill(no)(Create(UUID.randomUUID()))
 }

@@ -114,13 +114,15 @@
           <root url="jar://$USER_HOME$/AppData/Local/Coursier/Cache/v1/https/repo1.maven.org/maven2/org/typelevel/scalac-options_2.12/0.1.4/scalac-options_2.12-0.1.4.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ideaLibSources/command_2.12-1.10.0-sources.jar!/" />
+        </SOURCES>
       </library>
     </orderEntry>
   </component>
   <component name="SbtModule">
     <option name="buildForURI" value="file:/$MODULE_DIR$/../../" />
-    <option name="imports" value="SUB:DOLLARd69ca49e88f825b7d05b.`root`, _root_.sbt.Keys._, _root_.sbt.ScriptedPlugin.autoImport._, _root_.sbt.plugins.JUnitXmlReportPlugin.autoImport._, _root_.sbt.plugins.MiniDependencyTreePlugin.autoImport._, _root_.org.typelevel.sbt.tpolecat.TpolecatPlugin.autoImport._, _root_.spray.revolver.RevolverPlugin.autoImport._, _root_.sbtassembly.AssemblyPlugin.autoImport._, _root_.sbt._, _root_.sbt.nio.Keys._, _root_.sbt.plugins.IvyPlugin, _root_.sbt.plugins.JvmPlugin, _root_.sbt.plugins.CorePlugin, _root_.sbt.ScriptedPlugin, _root_.sbt.plugins.SbtPlugin, _root_.sbt.plugins.SemanticdbPlugin, _root_.sbt.plugins.JUnitXmlReportPlugin, _root_.sbt.plugins.Giter8TemplatePlugin, _root_.sbt.plugins.MiniDependencyTreePlugin, _root_.org.typelevel.sbt.tpolecat.TpolecatPlugin, _root_.spray.revolver.RevolverPlugin, _root_.sbtassembly.AssemblyPlugin, _root_.scala.xml.{TopScope=&gt;SUB:DOLLARscope}" />
+    <option name="imports" value="SUB:DOLLAR51adc0fc9d2ef5a81c8c.`root`, _root_.sbt.Keys._, _root_.sbt.ScriptedPlugin.autoImport._, _root_.sbt.plugins.JUnitXmlReportPlugin.autoImport._, _root_.sbt.plugins.MiniDependencyTreePlugin.autoImport._, _root_.org.typelevel.sbt.tpolecat.TpolecatPlugin.autoImport._, _root_.spray.revolver.RevolverPlugin.autoImport._, _root_.sbtassembly.AssemblyPlugin.autoImport._, _root_.sbt._, _root_.sbt.nio.Keys._, _root_.sbt.plugins.IvyPlugin, _root_.sbt.plugins.JvmPlugin, _root_.sbt.plugins.CorePlugin, _root_.sbt.ScriptedPlugin, _root_.sbt.plugins.SbtPlugin, _root_.sbt.plugins.SemanticdbPlugin, _root_.sbt.plugins.JUnitXmlReportPlugin, _root_.sbt.plugins.Giter8TemplatePlugin, _root_.sbt.plugins.MiniDependencyTreePlugin, _root_.org.typelevel.sbt.tpolecat.TpolecatPlugin, _root_.spray.revolver.RevolverPlugin, _root_.sbtassembly.AssemblyPlugin, _root_.scala.xml.{TopScope=&gt;SUB:DOLLARscope}" />
     <option name="resolvers" value="C:\Users\vineet.chauhan\.ivy2\cache|ivy|true|Local cache, https://repo1.maven.org/maven2/|maven|public" />
   </component>
 </module>

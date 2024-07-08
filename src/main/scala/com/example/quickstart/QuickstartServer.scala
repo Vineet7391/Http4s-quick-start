@@ -3,6 +3,7 @@ package com.example.quickstart
 import cats.effect.Async
 import cats.syntax.all._
 import com.comcast.ip4s._
+import com.example.quickstart.repositories.UserRepo
 import fs2.io.net.Network
 import org.http4s.ember.client.EmberClientBuilder
 import org.http4s.ember.server.EmberServerBuilder
@@ -18,7 +19,7 @@ object QuickstartServer {
       helloWorldAlg = HelloWorld.impl[F]
       jokeAlg = Jokes.impl[F](client)
       uuidAlg = UUIDs.impl[F]
-
+      userAlg = new UserRepo[F]
       // Combine Service Routes into an HttpApp.
       // Can also be done via a Router if you
       // want to extract segments not checked
@@ -26,7 +27,8 @@ object QuickstartServer {
       httpApp = (
         QuickstartRoutes.helloWorldRoutes[F](helloWorldAlg) <+>
           QuickstartRoutes.jokeRoutes[F](jokeAlg) <+>
-          QuickstartRoutes.uuidRoute[F](uuidAlg)
+          QuickstartRoutes.uuidRoute[F](uuidAlg) <+>
+          QuickstartRoutes.userRoute[F](userAlg)
         ).orNotFound
 
       // With Middlewares in place
