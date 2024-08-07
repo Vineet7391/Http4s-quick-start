@@ -9,18 +9,16 @@ trait UserT[F[_]] {
   def get(id: String): F[Either[ErrorMessage, User]]
 
   def getAll: F[Either[ErrorMessage, List[User]]]
+
+  def create(id: String, name: String, department: String, address: String): F[Either[ErrorMessage, String]]
 }
 
 
 class UserRepo[F[_] : Async] extends PostgresBDConnection with UserT[F] {
-  //  def impl[F[_] : Applicative]: UserT[F] = new UserT[F] {
-  ////    override def get(id: String): F[User] = getUserDb(id)
-  //
-  ////    override def getAll: F[List[User]] = allUserDb
-  //  }
 
   override def get(id: String): F[Either[ErrorMessage, User]] = getUserDb(id)
 
-
   override def getAll: F[Either[ErrorMessage, List[User]]] = getAllUserDb
+
+  override def create(id: String, name: String, department: String, address: String): F[Either[ErrorMessage, String]] = create(id, name, department, address)
 }

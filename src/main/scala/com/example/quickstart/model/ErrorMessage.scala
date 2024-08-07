@@ -6,7 +6,7 @@ import io.circe.{Decoder, Encoder}
 import org.http4s.EntityEncoder
 import org.http4s.circe.jsonEncoderOf
 
-case class ErrorMessage(code: Int, message: String)
+case class ErrorMessage(code: Int, message: String) extends Exception(s"$code:$message")
 
 object ErrorMessage {
 
@@ -24,6 +24,7 @@ object ErrorMessage {
       case Left(error) => error.asJson
       case Right(value) => value.asJson
     }
+
   implicit def eitherEntityEncoder[F[_], A, B](implicit encoder: Encoder[Either[A, B]]): EntityEncoder[F, Either[A, B]] =
     jsonEncoderOf[F, Either[A, B]]
 

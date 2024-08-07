@@ -2,9 +2,11 @@ package DBconnection
 
 
 import cats.effect.Async
+import cats.implicits.toFunctorOps
 import com.example.quickstart.model.{ErrorMessage, User}
 import doobie.Transactor
 import doobie.implicits._
+
 
 
 class PostgresBDConnection[F[_] : Async] {
@@ -29,12 +31,24 @@ class PostgresBDConnection[F[_] : Async] {
 
 
   def getUserDb(id: String): F[Either[ErrorMessage, User]] = {
-    println(id)
     val q = sql"SELECT * FROM users WHERE id = $id"
       .query[User]
-    q.unique.attemptSql.map {
-      case Left(error) => Left(ErrorMessage(error.getErrorCode, error.getMessage))
-      case Right(user) => Right(user)
-    }.transact(xa)
+    q.option.transact(xa).attemptSql.map {
+      case Right(Some(user)) =>
+        Right(user)
+      case Right(None) =>
+        Left(ErrorMessage(404, s"User not found with id: $id"))
+      case Left(e) =>
+        Left(ErrorMessage(e.getErrorCode, e.getMessage))
+    }
+  }
+
+  def create(id:String ,name: String, department: String, address: String) = {
+    val q = sql"INSERT INTO users VALUES ($id, $name, $department, $address)".update
+    q.run.transact(xa).attemptSql.map {
+      case Left(e) => Left(ErrorMessage(e.getErrorCode, e.getMessage))
+      case Right(v) => Right("Created" + v)
+    }
+
   }
 }
