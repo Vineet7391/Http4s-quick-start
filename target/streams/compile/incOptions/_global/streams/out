@@ -1,66 +1,66 @@
-[debug] Created transactional ClassFileManager with tempDir = C:\Users\vineet.chauhan\Scala\Http4s-quick-start\target\scala-2.13\classes.bak
-[debug] About to delete class files:
-[debug] We backup class files:
-[debug] Created transactional ClassFileManager with tempDir = C:\Users\vineet.chauhan\Scala\Http4s-quick-start\target\scala-2.13\classes.bak
-[debug] About to delete class files:
-[debug] We backup class files:
-[debug] Registering generated classes:
-[debug] 	ErrorMessage$anon$lazy$macro$11$2$$anon$2.class
-[debug] 	User$anon$lazy$macro$19$1.class
-[debug] 	Jokes$$anon$3$$anonfun$get$1.class
-[debug] 	QuickstartRoutes$$anon$3.class
-[debug] 	QuickstartRoutes$$anonfun$helloWorldRoutes$1.class
-[debug] 	HelloWorld$$anon$1.class
-[debug] 	User.class
-[debug] 	ErrorMessage.class
-[debug] 	Jokes$Joke$.class
-[debug] 	QuickstartRoutes$$anonfun$uuidRoute$1.class
-[debug] 	Jokes$$anon$3.class
-[debug] 	ErrorMessage$anon$lazy$macro$11$2.class
-[debug] 	ErrorMessage$anon$lazy$macro$11$1$$anon$1.class
-[debug] 	UUIDs$.class
-[debug] 	QuickstartRoutes$$anon$1.class
-[debug] 	HelloWorld$Greeting.class
-[debug] 	QuickstartRoutes$$anon$2.class
-[debug] 	PostgresBDConnection$anon$generic$macro$25$1.class
-[debug] 	User$anon$lazy$macro$19$1$$anon$1.class
-[debug] 	HelloWorld$.class
-[debug] 	PostgresBDConnection$anon$generic$macro$25$2.class
-[debug] 	PostgresBDConnection.class
-[debug] 	QuickstartRoutes$.class
-[debug] 	Jokes$Joke$anon$lazy$macro$15$1$$anon$2.class
-[debug] 	Jokes$Joke$anon$lazy$macro$7$1$$anon$1.class
-[debug] 	UserT.class
-[debug] 	QuickstartServer.class
-[debug] 	Jokes$Joke$anon$lazy$macro$15$1.class
-[debug] 	HelloWorld$Greeting$.class
-[debug] 	User$.class
-[debug] 	ErrorMessage$.class
-[debug] 	Main$.class
-[debug] 	Jokes$Joke.class
-[debug] 	QuickstartRoutes$$anon$4.class
-[debug] 	Main.class
-[debug] 	Jokes$.class
-[debug] 	HelloWorld.class
-[debug] 	HelloWorld$Name.class
-[debug] 	User$anon$lazy$macro$39$1.class
-[debug] 	UUIDs$$anon$1.class
-[debug] 	UserRepo.class
-[debug] 	Jokes.class
-[debug] 	Jokes$$anon$3$$anon$4.class
-[debug] 	QuickstartRoutes.class
-[debug] 	Jokes$JokeError.class
-[debug] 	UUIDs$Create$$anonfun$1.class
-[debug] 	Jokes$Joke$anon$lazy$macro$7$1.class
-[debug] 	UUIDs$Create$.class
-[debug] 	ErrorMessage$anon$lazy$macro$11$1.class
-[debug] 	UUIDs.class
-[debug] 	User$anon$lazy$macro$39$1$$anon$2.class
-[debug] 	QuickstartRoutes$$anonfun$userRoute$1.class
-[debug] 	Jokes$JokeError$.class
-[debug] 	HelloWorld$Name$.class
-[debug] 	HelloWorld$Greeting$$anonfun$1.class
-[debug] 	QuickstartRoutes$$anonfun$jokeRoutes$1.class
-[debug] 	QuickstartServer$.class
-[debug] 	UUIDs$Create.class
-[debug] Removing the temporary directory used for backing up class files: C:\Users\vineet.chauhan\Scala\Http4s-quick-start\target\scala-2.13\classes.bak
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = C:\Users\vineet.chauhan\Scala\Http4s-quick-start\target\scala-2.13\classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = C:\Users\vineet.chauhan\Scala\Http4s-quick-start\target\scala-2.13\classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ErrorMessage$anon$lazy$macro$11$2$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	User$anon$lazy$macro$19$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Jokes$$anon$3$$anonfun$get$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QuickstartRoutes$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QuickstartRoutes$$anonfun$helloWorldRoutes$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HelloWorld$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	User.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ErrorMessage.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Jokes$Joke$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QuickstartRoutes$$anonfun$uuidRoute$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Jokes$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ErrorMessage$anon$lazy$macro$11$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ErrorMessage$anon$lazy$macro$11$1$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UUIDs$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QuickstartRoutes$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HelloWorld$Greeting.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QuickstartRoutes$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PostgresBDConnection$anon$generic$macro$25$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	User$anon$lazy$macro$19$1$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HelloWorld$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PostgresBDConnection$anon$generic$macro$25$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PostgresBDConnection.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QuickstartRoutes$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Jokes$Joke$anon$lazy$macro$15$1$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Jokes$Joke$anon$lazy$macro$7$1$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UserT.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QuickstartServer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Jokes$Joke$anon$lazy$macro$15$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HelloWorld$Greeting$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	User$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ErrorMessage$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Jokes$Joke.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QuickstartRoutes$$anon$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Jokes$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HelloWorld.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HelloWorld$Name.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	User$anon$lazy$macro$39$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UUIDs$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UserRepo.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Jokes.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Jokes$$anon$3$$anon$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QuickstartRoutes.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Jokes$JokeError.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UUIDs$Create$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Jokes$Joke$anon$lazy$macro$7$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UUIDs$Create$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ErrorMessage$anon$lazy$macro$11$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UUIDs.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	User$anon$lazy$macro$39$1$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QuickstartRoutes$$anonfun$userRoute$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Jokes$JokeError$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HelloWorld$Name$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HelloWorld$Greeting$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QuickstartRoutes$$anonfun$jokeRoutes$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QuickstartServer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UUIDs$Create.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: C:\Users\vineet.chauhan\Scala\Http4s-quick-start\target\scala-2.13\classes.bak[0m
