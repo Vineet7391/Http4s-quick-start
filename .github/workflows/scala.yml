@@ -24,6 +24,3 @@ jobs:
           cache: 'sbt'
       - name: Run tests
         run: sbt test
-
-      - name: Run SonarQube Scan
-        run: sbt sonarScan -D"sonar.projectKey=SBT-Sonar" -D"sonar.sources=." -D"sonar.host.url=http://localhost:9000" -D"sonar.token=sqp_458ebef7d3894580a64a883f2918a4bfd6872091"
