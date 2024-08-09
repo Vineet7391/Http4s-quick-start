@@ -7,9 +7,9 @@ name: Scala CI
 
 on:
   push:
-    branches: [ "**" ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ "**" ]
+    branches: [ "master" ]
 
 permissions:
   contents: read
@@ -29,4 +29,3 @@ jobs:
           cache: 'sbt'
       - name: Run tests
         run: sbt test
-
