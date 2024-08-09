@@ -20,9 +20,9 @@ object UUIDs {
   object Create {
     implicit val UUIDEncoded: Encoder[Create] = (a: Create) => Json.obj(("UUID", Json.fromString(a.uuid.toString)))
 
-    implicit def UUIDEntityEncoder[F[_]]: EntityEncoder[F, Create] = jsonEncoderOf[F, Create]
+    implicit def uuidEntityEncoder[F[_]]: EntityEncoder[F, Create] = jsonEncoderOf[F, Create]
 
-    implicit def UUIDsEntityEncoder[F[_]]: EntityEncoder[F, List[Create]] = jsonEncoderOf[F, List[Create]]
+    implicit def uuidsEntityEncoder[F[_]]: EntityEncoder[F, List[Create]] = jsonEncoderOf[F, List[Create]]
   }
 
   def impl[F[_] : Applicative]: UUIDs[F] = new UUIDs[F] {

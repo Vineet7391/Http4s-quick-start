@@ -14,9 +14,6 @@ object ErrorMessage {
 
   implicit def errorDecoder: Decoder[ErrorMessage] = deriveDecoder[ErrorMessage]
 
-  //  implicit def errorEncode[A]: Encoder[A] = deriveEncoder[A]
-  //  implicit def errorA[A]: Encoder[A] = deriveEncoder[A]
-
   implicit def errorEntityEncoder[F[_]]: EntityEncoder[F, ErrorMessage] = jsonEncoderOf[F, ErrorMessage]
 
   implicit def eitherEncoder[A](implicit errorEncoder: Encoder[ErrorMessage], aEncoder: Encoder[A]): Encoder[Either[ErrorMessage, A]] =

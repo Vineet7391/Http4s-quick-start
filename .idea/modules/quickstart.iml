@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id="root [file:/C:/Users/vineet.chauhan/Scala/Http4s-quick-start/]" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_17">
     <output url="file://$MODULE_DIR$/../../target/scala-2.13/classes" />
     <output-test url="file://$MODULE_DIR$/../../target/scala-2.13/test-classes" />
     <exclude-output />
@@ -41,11 +41,12 @@
     <orderEntry type="library" name="sbt: org.portable-scala:portable-scala-reflect_2.13:1.1.1:jar" level="project" />
     <orderEntry type="library" name="sbt: org.postgresql:postgresql:42.6.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.scala-lang.modules:scala-parser-combinators_2.13:1.1.2:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.13.13:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.scala-lang:scala-reflect:2.13.13:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.13.14:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang:scala-reflect:2.13.14:jar" level="project" />
     <orderEntry type="library" name="sbt: org.scala-sbt:test-interface:1.0:jar" level="project" />
-    <orderEntry type="library" scope="TEST" name="sbt: org.scalameta:junit-interface:0.7.29:jar" level="project" />
-    <orderEntry type="library" scope="TEST" name="sbt: org.scalameta:munit_2.13:0.7.29:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scalameta:junit-interface:1.0.0:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scalameta:munit-diff_2.13:1.0.0:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scalameta:munit_2.13:1.0.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.scalameta:svm-subs:101.0.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.scodec:scodec-bits_2.13:1.1.38:jar" level="project" />
     <orderEntry type="library" name="sbt: org.slf4j:slf4j-api:2.0.13:jar" level="project" />
@@ -72,6 +73,7 @@
     <orderEntry type="library" name="sbt: org.typelevel:literally_2.13:1.1.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.typelevel:log4cats-core_2.13:2.6.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.typelevel:log4cats-slf4j_2.13:2.6.0:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.typelevel:munit-cats-effect_2.13:2.0.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.typelevel:vault_2.13:3.5.0:jar" level="project" />
   </component>
 </module>

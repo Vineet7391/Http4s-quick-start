@@ -54,10 +54,6 @@ object QuickstartRoutes {
     val dsl = new Http4sDsl[F] {}
     import dsl._
     HttpRoutes.of[F] {
-//      case POST -> Root / "newUser" / user =>
-//        for {
-//
-//        } yield ()
 
       case GET -> Root / "user" / id =>
         for {

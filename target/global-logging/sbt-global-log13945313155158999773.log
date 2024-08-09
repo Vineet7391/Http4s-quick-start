@@ -1,0 +1,50 @@
+[debug] > Exec(sonar, Some(8d784918-20d0-42ae-ada7-b9d79e3640fb), Some(CommandSource(console0)))
+[debug] Evaluating tasks: sonar
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] keyStore is : 
+[debug] keyStore type is : pkcs12
+[debug] keyStore provider is : 
+[debug] init keystore
+[debug] init keymanager of type SunX509
+[info] User cache: C:\Users\vineet.chauhan\.sonar\cache
+[debug] Extract sonar-scanner-api-batch in temp...
+[debug] Get bootstrap index...
+[debug] Download: http://localhost:9000/batch/index
+[debug] Get bootstrap completed
+[debug] Create isolated classloader...
+[debug] Start temp cleaning...
+[debug] Temp cleaning done
+[debug] Execution getVersion
+[debug] Execution start
+[error] java.lang.NoSuchMethodError: 'org.sonar.batch.bootstrapper.Batch$Builder org.sonar.batch.bootstrapper.Batch$Builder.setBootstrapProperties(java.util.Map)'
+[error] 	at org.sonarsource.scanner.api.internal.batch.DefaultBatchFactory.createBatch(DefaultBatchFactory.java:38)
+[error] 	at org.sonarsource.scanner.api.internal.batch.BatchIsolatedLauncher.start(BatchIsolatedLauncher.java:52)
+[error] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[error] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[error] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[error] 	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+[error] 	at org.sonarsource.scanner.api.internal.IsolatedLauncherProxy.invoke(IsolatedLauncherProxy.java:60)
+[error] 	at jdk.proxy6/jdk.proxy6.$Proxy10.start(Unknown Source)
+[error] 	at org.sonarsource.scanner.api.EmbeddedScanner.doStart(EmbeddedScanner.java:220)
+[error] 	at org.sonarsource.scanner.api.EmbeddedScanner.start(EmbeddedScanner.java:156)
+[error] 	at com.olaq.sbt.SonarScannerPlugin$.$anonfun$sonarScanTask$1(SonarScannerPlugin.scala:55)
+[error] 	at com.olaq.sbt.SonarScannerPlugin$.$anonfun$sonarScanTask$1$adapted(SonarScannerPlugin.scala:48)
+[error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+[error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:63)
+[error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:69)
+[error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:283)
+[error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:24)
+[error] 	at sbt.Execute.work(Execute.scala:292)
+[error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:283)
+[error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+[error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:65)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[error] 	at java.base/java.lang.Thread.run(Thread.java:840)
+[error] (sonar) java.lang.NoSuchMethodError: 'org.sonar.batch.bootstrapper.Batch$Builder org.sonar.batch.bootstrapper.Batch$Builder.setBootstrapProperties(java.util.Map)'
+[error] Total time: 1 s, completed Aug 8, 2024, 4:20:43 PM
+[debug] > Exec(shell, None, None)
+[debug] > Exec(shell, None, None)

@@ -20,10 +20,7 @@ object QuickstartServer {
       jokeAlg = Jokes.impl[F](client)
       uuidAlg = UUIDs.impl[F]
       userAlg = new UserRepo[F]
-      // Combine Service Routes into an HttpApp.
-      // Can also be done via a Router if you
-      // want to extract segments not checked
-      // in the underlying routes.
+
       httpApp = (
         QuickstartRoutes.helloWorldRoutes[F](helloWorldAlg) <+>
           QuickstartRoutes.jokeRoutes[F](jokeAlg) <+>

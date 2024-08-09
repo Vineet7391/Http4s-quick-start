@@ -1,0 +1,118 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\vineet.chauhan\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\vineet.chauhan\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.10.0 (Amazon.com Inc. Java 11.0.23)
+[debug] Load.defaultLoad until apply took 98.8354ms
+[debug]           Load.loadUnit: plugins took 82.6731ms
+[debug]           Load.loadUnit: defsScala took 0.2258ms
+[debug] [Loading] Scanning directory C:\Users\vineet.chauhan\Scala\Http4s-quick-start\project
+[debug]             Load.loadUnit: mkEval took 6.9299ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\vineet.chauhan\Scala\Http4s-quick-start\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 17.5742 ms
+[info] loading settings for project http4s-quick-start-build from plugins.sbt,idea.sbt ...
+[debug]               Load.resolveProject(http4s-quick-start-build) took 57.4819ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id http4s-quick-start-build, base: C:\Users\vineet.chauhan\Scala\Http4s-quick-start\project, plugins: List(<none>))) took 82.7571ms
+[debug] [Loading] Done in C:\Users\vineet.chauhan\Scala\Http4s-quick-start\project, returning: (http4s-quick-start-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 2928.1938ms
+[debug]           Load.loadUnit: cleanEvalClasses took 9.3503ms
+[debug]         Load.loadUnit(file:/C:/Users/vineet.chauhan/Scala/Http4s-quick-start/project/, ...) took 3025.1863ms
+[debug]       Load.apply: load took 3172.731ms
+[debug]       Load.apply: resolveProjects took 5.6174ms
+[debug]       Load.apply: finalTransforms took 60.8654ms
+[debug]       Load.apply: config.delegates took 10.3512ms
+[debug]       Load.apply: Def.make(settings)... took 423.1853ms
+[debug]       Load.apply: structureIndex took 110.5623ms
+[debug]       Load.apply: mkStreams took 2.1186ms
+[info] loading project definition from C:\Users\vineet.chauhan\Scala\Http4s-quick-start\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 6636.7041ms
+[debug]     Load.loadUnit: defsScala took 0.0021ms
+[debug] [Loading] Scanning directory C:\Users\vineet.chauhan\Scala\Http4s-quick-start
+[debug]       Load.loadUnit: mkEval took 0.3299ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.typelevel.sbt.tpolecat.TpolecatPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(spray.revolver.RevolverPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbtassembly.AssemblyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(com.github.sbt.jacoco.JacocoItPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(com.github.sbt.jacoco.JacocoItPlugin),Set(Atom(com.github.sbt.jacoco.JacocoPlugin)))
+[debug] Clause(Atom(com.github.sbt.jacoco.JacocoPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(com.github.sbt.jacoco.coveralls.JacocoCoverallsPlugin),Set(Atom(com.github.sbt.jacoco.JacocoPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.typelevel.sbt.tpolecat.TpolecatPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(spray.revolver.RevolverPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbtassembly.AssemblyPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(com.github.sbt.jacoco.JacocoPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,org.typelevel.sbt.tpolecat.TpolecatPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,com.github.sbt.jacoco.JacocoPlugin,sbtassembly.AssemblyPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,spray.revolver.RevolverPlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 3.9177 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 50.0337ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\vineet.chauhan\Scala\Http4s-quick-start, plugins: List(<none>))) took 56.4206ms
+[debug] [Loading] Done in C:\Users\vineet.chauhan\Scala\Http4s-quick-start, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 1311.1709ms
+[debug]     Load.loadUnit: cleanEvalClasses took 7.2982ms
+[debug]   Load.loadUnit(file:/C:/Users/vineet.chauhan/Scala/Http4s-quick-start/, ...) took 7958.4706ms
+[debug] Load.apply: load took 7994.5858ms
+[debug] Load.apply: resolveProjects took 0.2354ms
+[debug] Load.apply: finalTransforms took 42.3333ms
+[debug] Load.apply: config.delegates took 0.2775ms
+[debug] Load.apply: Def.make(settings)... took 138.0562ms
+[debug] Load.apply: structureIndex took 27.8803ms
+[debug] Load.apply: mkStreams took 0.0025ms
+[info] set current project to quickstart (in build file:/C:/Users/vineet.chauhan/Scala/Http4s-quick-start/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 54854 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 54854, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to quickstart (in build file:/C:/Users/vineet.chauhan/Scala/Http4s-quick-start/)
+[debug] > Exec(idea-shell, None, None)
